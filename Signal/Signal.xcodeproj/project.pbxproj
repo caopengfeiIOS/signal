@@ -15,6 +15,7 @@
 		BAFB6F581E601D8300654F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFB6F561E601D8300654F57 /* LaunchScreen.storyboard */; };
 		BAFB6F631E601D8300654F57 /* SignalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFB6F621E601D8300654F57 /* SignalTests.m */; };
 		BAFB6F6E1E601D8300654F57 /* SignalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFB6F6D1E601D8300654F57 /* SignalUITests.m */; };
+		BAFB6F7D1E601DDE00654F57 /* CPFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFB6F7C1E601DDE00654F57 /* CPFTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BAFB6F691E601D8300654F57 /* SignalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFB6F6D1E601D8300654F57 /* SignalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignalUITests.m; sourceTree = "<group>"; };
 		BAFB6F6F1E601D8300654F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFB6F7B1E601DDE00654F57 /* CPFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPFTool.h; sourceTree = "<group>"; };
+		BAFB6F7C1E601DDE00654F57 /* CPFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPFTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BAFB6F4C1E601D8300654F57 /* AppDelegate.m */,
 				BAFB6F4E1E601D8300654F57 /* ViewController.h */,
 				BAFB6F4F1E601D8300654F57 /* ViewController.m */,
+				BAFB6F7B1E601DDE00654F57 /* CPFTool.h */,
+				BAFB6F7C1E601DDE00654F57 /* CPFTool.m */,
 				BAFB6F511E601D8300654F57 /* Main.storyboard */,
 				BAFB6F541E601D8300654F57 /* Assets.xcassets */,
 				BAFB6F561E601D8300654F57 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				BAFB6F501E601D8300654F57 /* ViewController.m in Sources */,
 				BAFB6F4D1E601D8300654F57 /* AppDelegate.m in Sources */,
 				BAFB6F4A1E601D8300654F57 /* main.m in Sources */,
+				BAFB6F7D1E601DDE00654F57 /* CPFTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
