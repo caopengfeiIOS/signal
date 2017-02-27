@@ -30,7 +30,11 @@ static CPFTool * _instance;
 }
 +(instancetype)shareCpfTool
 {
-    return [[self alloc]init];
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _instance = [[self alloc] init];
+    });
+    return _instance;
 }
 //重写
 -(id)copyWithZone:(NSZone *)zone
